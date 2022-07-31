@@ -4,7 +4,7 @@ def my_func(a):
         print(i)
     return a
 
-b = [11, 222]
+b = [13, 222]
 
 my_func(b)
 

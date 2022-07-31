@@ -1,12 +1,16 @@
-my_list = "dmitry"
+add = lambda x, y: x + y
+print(add(100, 200))
 
-for i in my_list:
-    print(i)
+lambda x, y: x - y
+print(add(1000, 99))
 
+add =lambda x , y, a, b: (x + y) + (a + b)
+print(add(1, 2, 3, 4))
 
+a = [(1, 2), (4, 1), (9, 10), (13, -3)]
+a.sort(key=lambda x: x[1])
+print(a)
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-result = list(filter(lambda elem: elem in b, a))
-
+l = [1, 2, 5, 3, 4]
+l.sort(key=lambda x: x)
+print(l)
