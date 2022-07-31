@@ -9,3 +9,4 @@ l2= [1,2,3,4,]
 
 b=my_func(l2)
 print(b)
+
